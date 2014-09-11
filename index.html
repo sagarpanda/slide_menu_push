@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Mobile Menu Push Left/Right</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <!--<meta name="viewport" content="width=device-width, height=device-height">-->
+    <!--<link rel="apple-touch-icon" href="/images/home-icon.png"/>-->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div class="main-container">
+    <input type="checkbox" id="menu-btn-check" >
+    <input type="checkbox" id="list-btn-check" >
+    <!-- left panel starts -->
+    <div class="left-pan">
+        <div class="right-pan-inner flex-vbox">
+            <div class="toolbar flex-order-1">
+                <div class="toolbar-center-txt">Menu</div>
+            </div>
+            <div class="middle flex-val-1 flex-order-2 scrollable">
+                <ul class="list menu">
+                    <li>Home</li>
+                    <li>My Account</li>
+                    <li>Options</li>
+                    <li>Preferences</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- left panel ends -->
+    <!-- middle panel starts -->
+    <div class="container flex-vbox">
+        <div class="toolbar flex-order-1">
+            <div class="flex-hbox">
+                <label for="menu-btn-check" onclick="" class="btn-left flex-order-1"><span class="icon-menu"></span></label>
+                <div class="flex-val-1 flex-order-2"></div>
+                <label for="list-btn-check" onclick="" class="btn-right flex-order-3"><span class="icon-list"></span></label>
+            </div>
+        </div>
+        <div class="middle flex-val-1 flex-order-2 scrollable">
+            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. 
+            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. 
+            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. 
+            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. 
+            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. 
+            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. 
+            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. 
+            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. 
+            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. 
+            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. 
+            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+        </div>
+        <div class="toolbar-bottom flex-order-3"></div>
+    </div>
+    <!-- middle panel ends -->
+    <!-- right panel starts -->
+    <div class="right-pan">
+        <div class="right-pan-inner flex-vbox">
+            <div class="toolbar flex-hbox flex-order-1">
+                <label for="list-btn-check" onclick="" class="btn-left flex-order-1"><span class="icon-home"></span></label>
+                <div class="toolbar-center-txt flex-val-1 flex-order-2">List</div>
+                <label onclick="" class="btn-right flex-order-2"><span class="icon-pencil"></span></label>
+            </div>
+            <div class="middle flex-val-1 flex-order-2 scrollable">
+                <ul class="list">
+                    <li>list 01</li>
+                    <li>list 02</li>
+                    <li>list 03</li>
+                    <li>list 04</li>
+                    <li>list 05</li>
+                    <li>list 06</li>
+                    <li>list 07</li>
+                    <li>list 08</li>
+                    <li>list 09</li>
+                    <li>list 10</li>
+                    <li>list 11</li>
+                    <li>list 12</li>
+                    <li>list 13</li>
+                    <li>list 14</li>
+                    <li>list 15</li>
+                    <li>list 16</li>
+                    <li>list 17</li>
+                    <li>click to load...</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- right panel ends -->
+</div>
+<script type="text/javascript" src="js/libs/vendor/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
